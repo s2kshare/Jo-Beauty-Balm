@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function Footer() {
     return (
-        <footer className="footer bg-base-200 text-base-content p-10">
+        <footer className="footer relative bottom-0 bg-neutral text-white p-10">
             <aside>
                 <img
                     src="./logo-black.png"
@@ -10,6 +10,7 @@ function Footer() {
                     width={50}
                     alt=""
                     srcset=""
+                    className="invert"
                 />
                 <p>
                     Jo's Beauty Balm

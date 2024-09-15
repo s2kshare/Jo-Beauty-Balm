@@ -3,8 +3,8 @@ import { IoIosMail } from "react-icons/io";
 
 function Contact() {
     return (
-        <div className="mx-10">
-            <h1 className=" font-semibold text-center text-2xl mb-4">
+        <div className="mx-10 md:mx-96 my-10">
+            <h1 className=" underline font-semibold text-center text-2xl mb-4">
                 Contact Us!
             </h1>
             <div className="flex w-full flex-col border-opacity-50">

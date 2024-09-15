@@ -27,7 +27,10 @@ function ServiceCard({ title, description, price, table, tabledata }) {
                                 {tabledata !== null &&
                                     tabledata.map((data, index) => {
                                         return (
-                                            <tr className="hover" key={index}>
+                                            <tr
+                                                className="hover hover:text-neutral transition-all hover:cursor-pointer"
+                                                key={index}
+                                            >
                                                 <td>
                                                     {data.duration}
                                                     {data.surplus}

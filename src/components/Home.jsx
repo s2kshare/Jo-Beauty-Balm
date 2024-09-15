@@ -27,7 +27,7 @@ function Home() {
                     <h1 className="font-bold text-center text-3xl">
                         Welcome to Jo's Beauty Balm!
                     </h1>
-                    <p className=" mx-4 my-4 text-lg">
+                    <p className=" md:mx-24 mx-4 my-4 text-lg">
                         My passion for the beauty industry started when I was 19
                         & received my first facial treatment. I thought 'wow
                         this is how I want to make people feel' and I have now
@@ -54,12 +54,12 @@ function Home() {
                 </div>
 
                 {/* Review Section */}
-                <div className="reviews mx-1 overflow-x-hidden flex flex-col gap-0">
+                <div className="reviews h-full mx-1 overflow-x-hidden flex flex-col gap-0">
                     <h1 className="font-bold text-3xl text-center">
                         Hear from my customers!
                     </h1>
-                    <div className=" ml-2 inline-flex overflow-scroll rounded-box w-full snap-none">
-                        <div className=" w-full">
+                    <div className="gap-4 md:ml-0 ml-2 md:px-40 px-0 inline-flex md:overflow-hidden overflow-scroll rounded-box w-full snap-none">
+                        <div className="flex-1 h-full w-full">
                             <ReviewCard
                                 user={"Taniora"}
                                 rating={1}
@@ -68,14 +68,14 @@ function Home() {
                                 }
                             />
                         </div>
-                        <div className="carousel-item w-full">
+                        <div className="flex-1 h-full w-full">
                             <ReviewCard
                                 user={"Tina"}
                                 rating={4}
                                 description={"You do have magic hands 🙌"}
                             />
                         </div>
-                        <div className="carousel-item w-full">
+                        <div className="flex-1 h-full w-full">
                             <ReviewCard
                                 user={"Urshula"}
                                 rating={5}
