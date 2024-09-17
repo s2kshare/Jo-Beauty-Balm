@@ -2,6 +2,7 @@ import ReviewCard from "./ReviewCard";
 import { BiMoneyWithdraw } from "react-icons/bi";
 import { IoIosSearch } from "react-icons/io";
 import { Link } from "react-router-dom";
+import "./index.css";
 
 function Home() {
     return (
