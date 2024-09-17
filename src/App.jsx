@@ -8,23 +8,23 @@ import Contact from "./components/Contact";
 
 const router = createBrowserRouter([
     {
-        path: "/",
+        path: "/Jo-Beauty-Balm/",
         element: <AppWrapper />,
         children: [
             {
-                path: "/",
+                path: "/Jo-Beauty-Balm/",
                 element: <Home />,
             },
             {
-                path: "/about",
+                path: "/Jo-Beauty-Balm/about",
                 element: <About />,
             },
             {
-                path: "/services",
+                path: "/Jo-Beauty-Balm/services",
                 element: <Services />,
             },
             {
-                path: "/contactus",
+                path: "/Jo-Beauty-Balm/contactus",
                 element: <Contact />,
             },
         ],

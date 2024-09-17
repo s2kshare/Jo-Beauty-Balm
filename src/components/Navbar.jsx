@@ -4,10 +4,13 @@ function Navbar() {
     return (
         <div className="navbar bg-base-100 h-24 fixed z-20">
             <div className="navbar-start">
-                <Link to={"/"} className="btn btn-ghost lg:flex hidden text-xl">
+                <Link
+                    to={"/Jo-Beauty-Balm/"}
+                    className="btn btn-ghost lg:flex hidden text-xl"
+                >
                     Jo's Beauty Balm
                 </Link>
-                <Link to={"/"}>
+                <Link to={"/Jo-Beauty-Balm/"}>
                     <img
                         src="./logo-black.png"
                         alt=""
@@ -18,7 +21,7 @@ function Navbar() {
                 </Link>
             </div>
             <div className="navbar-center">
-                <Link to={"/"}>
+                <Link to={"/Jo-Beauty-Balm/"}>
                     <img
                         src="./logo-black.png"
                         alt=""
@@ -29,7 +32,7 @@ function Navbar() {
                 </Link>
 
                 <Link
-                    to={"/"}
+                    to={"/Jo-Beauty-Balm/"}
                     className="btn btn-ghost text-xl visible lg:hidden font-semibold"
                 >
                     Jo's Beauty Balm
@@ -39,16 +42,20 @@ function Navbar() {
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
                         <li>
-                            <Link to={"/"}>Home</Link>
+                            <Link to={"/Jo-Beauty-Balm/"}>Home</Link>
                         </li>
                         {/* <li>
-                            <Link to={"/about"}>About Us</Link>
+                            <Link to={"/Jo-Beauty-Balm/about"}>About Us</Link>
                         </li> */}
                         <li>
-                            <Link to={"/services"}>Services</Link>
+                            <Link to={"/Jo-Beauty-Balm/services"}>
+                                Services
+                            </Link>
                         </li>
                         <li>
-                            <Link to={"/contactus"}>Contact</Link>
+                            <Link to={"/Jo-Beauty-Balm/contactus"}>
+                                Contact
+                            </Link>
                         </li>
                     </ul>
                 </div>
@@ -78,16 +85,20 @@ function Navbar() {
                         className="menu menu-sm dropdown-content right-0 bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
                     >
                         <li>
-                            <Link to={"/"}>Home</Link>
+                            <Link to={"/Jo-Beauty-Balm/"}>Home</Link>
                         </li>
                         {/* <li>
-                            <Link to={"/about"}>About Us</Link>
+                            <Link to={"/Jo-Beauty-Balm/about"}>About Us</Link>
                         </li> */}
                         <li>
-                            <Link to={"/services"}>Services</Link>
+                            <Link to={"/Jo-Beauty-Balm/services"}>
+                                Services
+                            </Link>
                         </li>
                         <li>
-                            <Link to={"/contactus"}>Contact</Link>
+                            <Link to={"/Jo-Beauty-Balm/contactus"}>
+                                Contact
+                            </Link>
                         </li>
                     </ul>
                 </div>
