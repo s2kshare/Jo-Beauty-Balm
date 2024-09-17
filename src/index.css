@@ -4,18 +4,18 @@
 
 @keyframes change {
     0% {
-        background-image: url("background-1-pixelcut.png");
+        background-image: url("/Jo-Beauty-Balm/background-1-pixelcut.png");
     }
     25% {
-        background-image: url("background-1-pixelcut.png");
+        background-image: url("/Jo-Beauty-Balm/background-1-pixelcut.png");
     }
     50% {
-        background-image: url("background-2-pixelcut.jpeg");
+        background-image: url("/Jo-Beauty-Balm/background-2-pixelcut.jpeg");
     }
     75% {
-        background-image: url("background-2-pixelcut.jpeg");
+        background-image: url("/Jo-Beauty-Balm/background-2-pixelcut.jpeg");
     }
     0% {
-        background-image: url("background-1-pixelcut.png");
+        background-image: url("/Jo-Beauty-Balm/background-1-pixelcut.png");
     }
 }
