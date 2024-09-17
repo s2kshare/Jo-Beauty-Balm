@@ -20,25 +20,38 @@ function Footer() {
             </aside>
             <nav>
                 <h6 className="footer-title">Pages</h6>
-                <Link to={"/"} className="link link-hover">
+                <Link to={"/Jo-Beauty-Balm/"} className="link link-hover">
                     Home
                 </Link>
-                <Link to={"/about"} className="link link-hover">
+                {/* <Link to={"/Jo-Beauty-Balm/about"} className="link link-hover">
                     About us
-                </Link>
-                <Link to={"/services"} className="link link-hover">
+                </Link> */}
+                <Link
+                    to={"/Jo-Beauty-Balm/services"}
+                    className="link link-hover"
+                >
                     Services
                 </Link>
-                <Link to={"/contactus"} className="link link-hover">
+                <Link
+                    to={"/Jo-Beauty-Balm/contactus"}
+                    className="link link-hover"
+                >
                     Contact us
                 </Link>
             </nav>
             <nav>
                 <h6 className="footer-title">Contact</h6>
-                <Link to={"/"} className="link link-hover">
+                <Link
+                    to={"mailto:josbeautybalm@gmail.com"}
+                    className="link link-hover"
+                >
                     Email
                 </Link>
-                <Link to={"/"} className="link link-hover">
+                <Link
+                    target="_blank"
+                    to={"https://www.facebook.com/JosBeautyBalm"}
+                    className="link link-hover"
+                >
                     Facebook
                 </Link>
             </nav>

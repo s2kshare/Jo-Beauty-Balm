@@ -500,7 +500,7 @@ function Services() {
                 <h1 className="font-regular text-2xl mb-4 text-center">
                     Want to book?{" "}
                     <Link
-                        to={"/contactus"}
+                        to={"/Jo-Beauty-Balm/contactus"}
                         className=" font-semibold underline underline-offset-4"
                     >
                         Contact Us!
@@ -509,14 +509,19 @@ function Services() {
                 <div className="btns flex  items-center justify-center gap-2">
                     {/* ! Change to email address */}
                     <button className="btn btn-neutral">
-                        <a to={"/services"} className="flex flex-row gap-2">
+                        <Link
+                            to={"mailto:josbeautybalm@gmail.com"}
+                            className="flex flex-row gap-2"
+                        >
                             Email
                             <IoIosMail />
-                        </a>
+                        </Link>
                     </button>
                     <button className="btn btn-outline">
-                        <FaFacebook />
-                        Facebook
+                        <Link to={"https://www.facebook.com/JosBeautyBalm"}>
+                            <FaFacebook />
+                            Facebook
+                        </Link>
                     </button>
                 </div>
             </div>

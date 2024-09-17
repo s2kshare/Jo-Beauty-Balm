@@ -59,7 +59,7 @@ function Home() {
                     <h1 className="font-bold text-3xl text-center">
                         Hear from my customers!
                     </h1>
-                    <div className="gap-4 md:ml-0 ml-2 md:px-40 px-0 inline-flex md:overflow-hidden overflow-scroll rounded-box w-full snap-none">
+                    <div className="md:gap-4 gap-0 ml-0 md:px-40 px-0 md:inline-flex md:overflow-hidden sm:overflow-scroll rounded-box w-full snap-none">
                         <div className="flex-1 h-full w-full">
                             <ReviewCard
                                 user={"Taniora"}
@@ -96,10 +96,13 @@ function Home() {
                     <div className="btns flex  items-center justify-center gap-2">
                         <button className="btn btn-neutral">
                             <BiMoneyWithdraw />
-                            <Link to={"/services"}>Services</Link>
+                            <Link to={"/Jo-Beauty-Balm/services"}>
+                                Services
+                            </Link>
                         </button>
                         <button className="btn btn-outline">
-                            About <IoIosSearch />
+                            <Link to={"/Jo-Beauty-Balm/contactus"}></Link>
+                            Contact <IoIosSearch />
                         </button>
                     </div>
                 </div>
