@@ -7,7 +7,7 @@ import "../index.css";
 function Home() {
     return (
         <div className="w-full">
-            <div className="h-[40rem] w-full overflow-hidden">
+            <div className="h-[40rem] relative w-full overflow-hidden">
                 <div
                     className="bg-para w-full"
                     style={{
@@ -20,14 +20,18 @@ function Home() {
                         animation: "change 10s infinite ease-in-out",
                     }}
                 ></div>
+                <div className=" absolute w-full h-60 bottom-0 font-bold text-center text-3xl">
+                    <div className=" bg-gradient-to-t from-white to-transparent h-full w-full">
+                        <h1 className="absolute bottom-0 left-[50%] translate-x-[-50%]">
+                            Welcome to Jo's Beauty Balm!
+                        </h1>
+                    </div>
+                </div>
             </div>
 
             <div className="page-content ">
                 {/* Welcome Section */}
                 <div className="splash flex flex-col gap-5 mx-5 my-3 mb-10">
-                    <h1 className="font-bold text-center text-3xl">
-                        Welcome to Jo's Beauty Balm!
-                    </h1>
                     <p className=" md:mx-24 mx-4 my-4 text-lg">
                         My passion for the beauty industry started when I was 19
                         & received my first facial treatment. I thought 'wow

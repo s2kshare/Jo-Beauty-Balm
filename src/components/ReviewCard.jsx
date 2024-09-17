@@ -1,6 +1,6 @@
 function ReviewCard({ user, description, rating }) {
     return (
-        <div className="card bg-neutral h-full text-white w-full shadow-xl cursor-pointer overflow-y-hidden my-10 mx-1">
+        <div className="card bg-neutral h-full text-white w-full shadow-xl cursor-pointer overflow-y-hidden my-2 md:my-10 mx-1">
             <div className="card-body">
                 <h2 className="card-title">{user}</h2>
                 <div className="rating">
