@@ -37,7 +37,7 @@ function App() {
 
 function AppWrapper() {
     return (
-        <div className="">
+        <div className="" data-theme="light">
             <Navbar />
             <div className="pt-24">
                 <Outlet />
